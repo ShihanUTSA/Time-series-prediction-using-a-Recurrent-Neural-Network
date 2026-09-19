@@ -39,7 +39,7 @@ Both problems are solved with the same core idea: slide a fixed-size window over
 pip install -r requirements.txt
 ```
 
-This project was built against older pinned versions (Keras 2.0.2, TensorFlow 1.2.0, Python 3), so it's best run in a dedicated virtual environment — see `environment_setup_instructions.txt` for GPU/EC2 notes if you want to retrain rather than just read the results.
+This project was originally built against 2017-era Keras/TensorFlow. `requirements.txt` now pins current, security-patched versions instead (the old pins triggered hundreds of known-CVE flags on GitHub); the only code change needed for the newer Keras API was renaming the optimizer's `lr=`/`decay=0.0` arguments to `learning_rate=` in `RNN_project.ipynb` and `RNN_test.py`, with no change in behavior. See `environment_setup_instructions.txt` for GPU/EC2 notes if you want to retrain rather than just read the results.
 
 ## Part 1 — Time series prediction
 

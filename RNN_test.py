@@ -79,7 +79,7 @@ from my_answers import build_part1_RNN
 model = build_part1_RNN(window_size)
 
 # build model using keras documentation recommended optimizer initialization
-optimizer = keras.optimizers.RMSprop(lr=0.002, rho=0.9, epsilon=1e-08, decay=0.0)
+optimizer = keras.optimizers.RMSprop(learning_rate=0.002, rho=0.9, epsilon=1e-08)
 
 # compile the model
 model.compile(loss='mean_squared_error', optimizer=optimizer)
