@@ -1,0 +1,14 @@
+------------------
+input chars = 
+ the door. then there was a loud and authoritative"
+
+predicted chars = 
+ whith whe hare he mand dour mas the wist out was "
+
+------------------
+input chars = 
+ tap. come in! said holmes. a man entered who coul"
+
+predicted chars = 
+d he was the cous the mas the wain how so bent out"
+

@@ -1,2 +1,0 @@
-this is only a test 
-the value of x is 2
